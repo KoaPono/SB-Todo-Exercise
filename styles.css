@@ -1,3 +1,11 @@
+/*
+Katende Glory
+Pulled July 16, 2023
+Soft-UI Library
+CSS library
+https://katendeglory.github.io/soft-ui-library/
+*/
+
 @charset "UTF-8";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
 @import url("https://fonts.googleapis.com/css?family=Rubik|Poppins:300&display=swap");
@@ -393,46 +401,47 @@ a:hover {
   color: inherit;
 }
 
+
 .header {
-    height: 75px;
-    margin: 15px 5px 5px 15px;
-    display: flex;
-    justify-content:flex-start;
+  height: 75px;
+  margin: 15px 5px 5px 15px;
+  display: flex;
+  justify-content:flex-start;
 }
 
 #formContainer {
-    margin: 10px;
-    margin-bottom: 10px;
+  margin: 10px;
+  margin-bottom: 10px;
 }
 
 form {
-    display:flex;
+  display:flex;
 }
 form button {
-    margin-left: 15px;
-    margin-right: 5px
+  margin-left: 15px;
+  margin-right: 5px
 }
 
 .taskName button {
-    width: 100px
+  width: 100px
 }
 
 #taskContainer {
-    margin: 20px 10px 5px 10px;
-    border-radius: 20px;
-    background: var(--color-bg);
-    box-shadow:  8px 8px 16px #bebebe,
-                -8px -8px 16px #ffffff;
-    padding: 10px;
+  margin: 20px 10px 5px 10px;
+  border-radius: 20px;
+  background: var(--color-bg);
+  box-shadow:  8px 8px 16px #bebebe,
+              -8px -8px 16px #ffffff;
+  padding: 10px;
 }
 
 .task {
-    margin: 5px;
-    display: flex;
-    justify-content: space-between;
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .checked {
-    text-decoration: line-through;
-    color: gray;
+  text-decoration: line-through;
+  color: gray;
 }
